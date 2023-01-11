@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"19e8bb62b59840ed","x":-200,"y":-148,"width":400,"height":400,"type":"file","file":"2022-12-24.md"},
+		{"id":"b3f04b95fd1628f5","x":149,"y":-64,"width":250,"height":60,"color":"1","type":"text","text":"start and try completing atleast 3"}
+	],
+	"edges":[]
+}
