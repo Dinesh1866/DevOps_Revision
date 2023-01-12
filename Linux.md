@@ -211,7 +211,7 @@ here we have commands options arguments
 - - regular files (like text, data or executable files)
 - d directory
 - l link (shortcut that points to the location of actual file)
-- 
+- t 
 
 
 
