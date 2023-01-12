@@ -6,6 +6,7 @@
 [[Azure]]
 [[Azure DevOps]]
 [[Jenkins]]
+[[Vagrant]]
 
 
 #git #docker
