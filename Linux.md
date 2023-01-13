@@ -1,9 +1,9 @@
 1. [Intro to Linux](#Intro-to-Linux)
 2. [Basic CLI commands](#Basic-CLI-commands)
 3. [Understanding Files in Linux](#Understanding-files-in-linux)
-4. Filters & Redirection
-5. Users and Groups
-6. Sudo
+4. [Filters and IO Redirection](Filters-and-IO-Redirection)
+5. [Users and Groups](users-and-groups)
+6. [Sudo](sudo)
 7. Software management
 8. Services and Processes
 9. extra commands
@@ -120,11 +120,15 @@ here we have commands options arguments
 | whoami | shows the user names |
 | command --help | to know the options available and to open manual for that command |
 | ls | list all the contents in the directory |
+| ls -l | list in long format that is every info like file type, time and permissions note: this will show files list in alphabetical order |
+| ls -lt | this will short them according to the time stamp i.e: recently created to old |
+| ls -ltr | now this will short them in reverse |
 | ls -a | list all the contents including system and hidden files |
 | cat filename.extension | to read the file contents |
 | sudo -i | to switch to the super user do or admin |
 | exit | to logout from sudo -i and back to normal user |
-| mkdir foldername | to create a directory
+| mkdir foldername | to create a directory |
+| mkdir -p f1/f2/f3/f4 | this can be used to create folders recursively thought the folders are crated before or not |
 | touch filename.extension| to create files with extension to exact file format |
 | cp source destination | to copy file from one place to another |
 | cp -r | to copy files recursively |
@@ -138,6 +142,14 @@ here we have commands options arguments
 | history | to see all the commands we have executed |
 | vim filename.extension | to open a file in vim editor |
 | vi filename.extension | to open a file in vi editor |
+| ln -s source destination | to create a soft link |
+|  unlink filewanttounlink | this one is used to unlink the file that is linked before |
+| file filepath | to know the file type like text, binary etc |
+| 
+
+
+
+
 
 
 
@@ -155,6 +167,10 @@ here we have commands options arguments
 > we can also read the prompt and know what user you are like 
 > 	e.g: vagrant@localhost - normal user (~)
 > 	       root@localhost - root user (#)
+
+> to change the hostname -> vim/etc/host  and change thyhe name and save it then 
+> 	cmd -> hostname newNamewegave
+> 	now logout and login we can see the new hostname
 
 > absolute path -> the one start with root directory
 > 	e.g: /bin/ -> if we move in and give ls we can see all the commands we have
@@ -211,7 +227,16 @@ here we have commands options arguments
 - - regular files (like text, data or executable files)
 - d directory
 - l link (shortcut that points to the location of actual file)
-- t 
+- c special files(character files mechanism used for input and output such as files in /dev like keyboards,mouse )
+- b block file (like our ssd, storages etc)
+- s socket (a special file that rpovides inner-process networking protected by the file system access control)
+- p pipe (a special file that allows processes to communicate with each other without using network socket semantics)
+
+## Fileters and IO redirection
+
+grep command is used to find the particular pattern in the file. i.e: to look for a file 
+| command | description |
+| --- | --- |
 
 
 
