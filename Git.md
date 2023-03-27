@@ -46,3 +46,4 @@ Commands
 38. ssh -keygen.exe - to generate an ssh pub and priv key
 39. ssh -keygen -t rsa -C email - will create an rsa based ssh pub and private key
 40. git update -git-for-windows - to update the git
+41. git rm --cached FILENAME - to remove the file from cached so that it can be ignored by gitignore even though we commited it before
