@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux.md",
+                "file": "Azure DevOps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b664f50cd1e1a2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jenkins.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04ba17e9cf873f1e",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "Jenkins.md"
               }
             }
           }
@@ -148,17 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef03b6fb33563a6e",
+  "active": "6b664f50cd1e1a2a",
   "lastOpenFiles": [
-    "Vagrant.md",
     "Linux.md",
-    "DevOps.md",
-    "Git.md",
     "Jenkins.md",
-    "2022-12-30.md",
-    "2022-12-24.md",
+    "Git.md",
+    "DevOps.md",
     "Azure DevOps.md",
     "Azure.md",
-    "Unit Testing.md"
+    "Project.md",
+    "Vagrant.md",
+    "2022-12-30.md",
+    "2022-12-24.md"
   ]
 }
